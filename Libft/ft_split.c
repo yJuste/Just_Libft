@@ -12,10 +12,10 @@
 #include "libft.h"
 
 char			**ft_split(const char *s, char c);
-static size_t	ft_count_words(const char *s, char c);
 static char		**ft_split_next(char **out, const char *s, char c);
 static char		**ft_split_error(char **out, size_t k);
 static char		*ft_strncpy(char *dst, const char *src, size_t n);
+static size_t	ft_count_words(const char *s, char c);
 
 char	**ft_split(const char *s, char c)
 {

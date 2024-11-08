@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t		ft_strlen(const char *s);
-static int	ft_ischar(char c, char const *set);
-
 static int	ft_ischar(char c, char const *set)
 {
 	size_t		i;
@@ -43,7 +40,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	end = ft_strlen(s1);
 	while (end > start && ft_ischar(s1[end - 1], set))
 		end--;
-	str = malloc(sizeof(char) * (end - start + 1));
+	str = ft_calloc(end - start + 1, sizeof(char));
 	if (!str)
 		return (NULL);
 	i = 0;

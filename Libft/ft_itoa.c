@@ -13,7 +13,6 @@
 
 char		*ft_itoa(int n);
 static void	ft_itoa_next(int n, char *res, int len);
-char		*ft_strdup(const char *s1);
 
 char	*ft_itoa(int n)
 {
@@ -32,7 +31,7 @@ char	*ft_itoa(int n)
 		nbr /= 10;
 		len++;
 	}
-	res = malloc(sizeof(char) * (len + 1));
+	res = ft_calloc(len + 1, sizeof(char));
 	if (!res)
 		return (NULL);
 	ft_itoa_next(n, res, len);
