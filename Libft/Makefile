@@ -29,10 +29,6 @@ $(NAME) :
 	$(CC) -I $(CFLAGS) -c $(CFLAGS) $(SRC)
 	ar -rcs $(NAME) $(OBJ)
 
-bonus :
-	$(CC) -I $(CFLAGS) -c $(CFLAGS) $(SRC) $(SRC_BONUS)
-	ar -rcs $(NAME) $(OBJ) $(OBJ_BONUS)
-
 clean :
 	rm -f $(OBJ) $(OBJ_BONUS)
 
