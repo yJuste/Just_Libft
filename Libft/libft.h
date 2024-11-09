@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlongin <jlongin@student.42perpignan.fr>   +#+  +:+       +#+        */
+/*   By: jlongin <jlongin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/04 21:42:42 by jlongin           #+#    #+#             */
-/*   Updated: 2024/11/04 21:42:42 by jlongin          ###   ########.fr       */
+/*   Created: 2024/11/08 23:23:12 by jlongin           #+#    #+#             */
+/*   Updated: 2024/11/08 23:23:14 by jlongin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H

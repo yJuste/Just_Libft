@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlongin <jlongin@student.42perpignan.fr>   +#+  +:+       +#+        */
+/*   By: jlongin <jlongin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/04 21:42:42 by jlongin           #+#    #+#             */
-/*   Updated: 2024/11/04 21:42:42 by jlongin          ###   ########.fr       */
+/*   Created: 2024/11/08 23:08:52 by jlongin           #+#    #+#             */
+/*   Updated: 2024/11/08 23:08:53 by jlongin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
