@@ -38,12 +38,9 @@ clean :
 fclean : clean
 	rm -f $(NAME)
 
-dev:
-	make fclean;cd ../libft-unit-test; make f;cd ../libft; make fclean
-
 re : fclean all
 
-reb: fclean all bonus
+rebonus: fclean all bonus
 
 rf : re
 	rm -f $(OBJ) $(OBJ_BONUS)
