@@ -3,7 +3,7 @@
 ## // INTRO
 
 * Voici le premier projet de l'ecole 42 : Libft
-* Fini à 125% - Bonus inclus
+* Fini à 125%
 
 ## /. HELP
 
@@ -11,4 +11,4 @@
 
 ##	/: EOF
 
-Modifié le 9 Novembre 2024 par Juste.<br>
+Modifié le 18 Novembre 2024 par Juste.<br>
